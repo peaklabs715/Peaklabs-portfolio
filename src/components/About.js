@@ -30,12 +30,12 @@ export default function About() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h2 className={styles.title}>We Build Worlds.</h2>
+          <h2 className={styles.title}>We Create Scale.</h2>
           <p className={styles.description}>
-            Founded by a duo of passionate animators and motion designers, <span className={styles.highlight}>PeakLabs</span> was born out of a desire to break the mold of traditional advertising. 
+            Founded by a duo of cutting-edge AI creators, <span className={styles.highlight}>PeakLabs</span> was born out of a desire to break the mold of traditional, slow, and expensive advertising. 
           </p>
           <p className={styles.description}>
-            We believe that every brand has a unique story, and the most effective way to tell that story is through dynamic, visually arresting animation. From concept to final render, we obsess over every frame to ensure your message resonates with your audience.
+            We leverage state-of-the-art artificial intelligence to produce highly engaging User Generated Content (UGC). By combining hyper-realistic AI avatars with data-driven scripting, we deliver high-converting ads at a fraction of the time and cost.
           </p>
 
           <div className={styles.statsRow}>

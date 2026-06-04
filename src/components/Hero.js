@@ -41,8 +41,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          High-Impact <br />
-          <span className={styles.highlight}>Animated Ads</span>
+          High-Converting <br />
+          <span className={styles.highlight}>AI UGC Ads</span>
         </motion.h1>
         
         <motion.p 
@@ -51,7 +51,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          We are PeakLabs. We craft visually stunning motion graphics and animations that elevate your brand and drive results.
+          We are PeakLabs. We craft highly engaging, hyper-realistic AI-generated User Generated Content that elevates your brand and drives massive conversions.
         </motion.p>
         
         <motion.div 

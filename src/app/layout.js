@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "PeakLabs | Animated Ads Agency",
-  description: "PeakLabs is a premium animated ads agency creating high-impact videos for modern brands.",
+  title: "PeakLabs | AI UGC Ads Agency",
+  description: "PeakLabs is a premium AI UGC agency creating hyper-realistic, high-converting video ads for modern brands.",
 };
 
 export default function RootLayout({ children }) {
