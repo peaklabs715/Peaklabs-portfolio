@@ -11,7 +11,7 @@ const projects = [
     id: 1,
     title: "Neon Cyberpunk Release",
     category: "3D Animation",
-    videoId: "dQw4w9WgXcQ", // YouTube ID
+    videoId: "AyJa0a-py2g",
     image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1000&auto=format&fit=crop",
     videoPreview: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
   },
@@ -19,7 +19,7 @@ const projects = [
     id: 2,
     title: "Minimalist Brand Reveal",
     category: "Motion Graphics",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "AINWaI37RWQ",
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop",
     videoPreview: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
   },
@@ -27,7 +27,7 @@ const projects = [
     id: 3,
     title: "Dynamic Sports Promo",
     category: "2D Animation",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "he74Kgjpj2M",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop",
     videoPreview: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
   },
@@ -35,7 +35,7 @@ const projects = [
     id: 4,
     title: "Tech Explainer Series",
     category: "Vector Animation",
-    videoId: "dQw4w9WgXcQ",
+    videoId: "6GX2Mdr9ILY",
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop",
     videoPreview: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
   }
