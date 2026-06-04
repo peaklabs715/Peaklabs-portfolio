@@ -28,7 +28,7 @@ export default function VideoModal({ isOpen, onClose, videoId }) {
         exit={{ opacity: 0 }}
         onClick={onClose}
       >
-        <div style={{ position: 'relative', width: '100%', maxWidth: '1000px' }}>
+        <div style={{ position: 'relative', width: '100%', maxWidth: '450px', maxHeight: '90vh' }}>
           <button className={styles.closeButton} onClick={onClose}>
             Close <X size={24} />
           </button>
