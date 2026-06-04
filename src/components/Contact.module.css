@@ -135,6 +135,29 @@
   box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
 }
 
+.whatsappBtn {
+  background: #25D366;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.whatsappBtn:hover {
+  background: #128C7E;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+}
+
 @media (max-width: 992px) {
   .content {
     grid-template-columns: 1fr;

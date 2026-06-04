@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone, MessageCircle } from 'lucide-react';
 import styles from './Contact.module.css';
 
 export default function Contact() {
@@ -27,7 +27,7 @@ export default function Contact() {
               </div>
               <div className={styles.detailContent}>
                 <span className={styles.detailLabel}>Email Us</span>
-                <span className={styles.detailValue}>hello@peaklabs.com</span>
+                <span className={styles.detailValue}>peaklabs715@gmail.com</span>
               </div>
             </div>
             
@@ -37,7 +37,7 @@ export default function Contact() {
               </div>
               <div className={styles.detailContent}>
                 <span className={styles.detailLabel}>Call Us</span>
-                <span className={styles.detailValue}>+1 (555) 123-4567</span>
+                <span className={styles.detailValue}>+91 8796181683</span>
               </div>
             </div>
             
@@ -47,7 +47,7 @@ export default function Contact() {
               </div>
               <div className={styles.detailContent}>
                 <span className={styles.detailLabel}>Location</span>
-                <span className={styles.detailValue}>Los Angeles, CA / Remote</span>
+                <span className={styles.detailValue}>New Delhi</span>
               </div>
             </div>
           </div>
@@ -63,12 +63,12 @@ export default function Contact() {
         >
           <div className={styles.inputGroup}>
             <label htmlFor="name" className={styles.label}>Name</label>
-            <input type="text" id="name" className={styles.input} placeholder="John Doe" />
+            <input type="text" id="name" className={styles.input} placeholder="Your Name" />
           </div>
           
           <div className={styles.inputGroup}>
             <label htmlFor="email" className={styles.label}>Email</label>
-            <input type="email" id="email" className={styles.input} placeholder="john@company.com" />
+            <input type="email" id="email" className={styles.input} placeholder="you@company.com" />
           </div>
           
           <div className={styles.inputGroup}>
@@ -79,6 +79,10 @@ export default function Contact() {
           <button type="submit" className={styles.submitBtn}>
             Send Message
           </button>
+          
+          <a href="https://wa.me/918796181683" target="_blank" rel="noopener noreferrer" className={styles.whatsappBtn}>
+            <MessageCircle size={20} /> Chat on WhatsApp
+          </a>
         </motion.form>
       </div>
     </section>
