@@ -81,19 +81,6 @@ export default function Work() {
             >
               <div className={styles.thumbnailContainer}>
                 <img src={project.image} alt={project.title} className={styles.image} />
-                <video 
-                  className={styles.videoPreview}
-                  muted loop playsInline
-                  onMouseOver={e => e.target.play()}
-                  onMouseOut={e => { e.target.pause(); e.target.currentTime = 0; }}
-                >
-                  <source src={project.videoPreview} type="video/mp4" />
-                </video>
-              </div>
-              
-              <div className={styles.overlay}>
-                <div className={styles.projectCategory}>{project.category}</div>
-                <div className={styles.projectTitle}>{project.title}</div>
               </div>
               
               <div className={styles.playButton}>
